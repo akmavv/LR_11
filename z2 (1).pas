@@ -1,0 +1,30 @@
+﻿uses GraphABC;
+begin
+setpenwidth(1);
+setpencolor (clred);
+moveTo(300,150);
+lineTo(250,400);
+lineto(350,400);
+lineto(300,150);
+FloodFill(300,200,clred);
+Circle(300,150,25);
+FloodFill (300,150,clred);
+setpenwidth(1);
+setpencolor (clred);
+moveTo(500,200);
+lineTo(250,400);
+lineto(400,400);
+lineto(500,200);
+FloodFill(450,250,clGreen);
+Circle (500,200,25);
+FloodFill(500,200,clGreen);
+setpenwidth(1);
+setpencolor (clred);
+moveTo(100,200);
+lineTo(350,400);
+lineto(200,400);
+lineto(100,200);
+FloodFill(150,250,clBlue);
+Circle(100,200,25);
+FloodFill(100,200,clBlue);
+end.
